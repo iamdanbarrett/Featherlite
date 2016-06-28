@@ -1,0 +1,722 @@
+/***********************************************
+ _____  ___   ____  ______  __ __    ___  ____
+|     |/  _] /    ||      ||  |  |  /  _]|    \ 
+|   __/  [_ |  o  ||      ||  |  | /  [_ |  D  )
+|  |_|    _]|     ||_|  |_||  _  ||    _]|    / 
+|   _]   [_ |  _  |  |  |  |  |  ||   [_ |    \ 
+|  | |     ||  |  |  |  |  |  |  ||     ||  .  \
+|__| |_____||__|__|  |__|  |__|__||_____||__|\_|
+
+***********************************************/
+
+
+
+body{
+	font-weight: 500;
+}
+
+.container{
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+
+@media (min-width:320px) { 
+
+/* SMARTPHONE */
+
+.container{
+	box-sizing: border-box;
+	height:auto;
+	margin: 0 auto;	
+	max-width: 90%;
+	overflow: auto;
+	width: auto;
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+}	
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+
+}
+
+
+
+
+@media (min-width:481px) {
+
+/* PHABLETS */	
+
+.container {
+	width: auto;
+	max-width: 90%;
+	margin: 0 auto;
+	height:auto;
+	overflow: auto;	
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+} 
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+}
+
+
+
+
+@media (min-width:641px) { 
+
+/* PORTRAIT IPAD */
+
+.container {
+	width: auto;
+	max-width: 85%;
+	margin: 0 auto;
+	height:auto;
+	overflow: auto;	
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+} 
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 20%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 16.66666%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 14.28%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 12.5%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 11.11%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 10%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 9.09%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 8.333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+}
+
+
+
+
+
+
+
+@media (min-width:961px) { 
+
+/* LANDSCAPE IPAD */
+
+.container {
+	width: auto;
+	max-width: 85%;
+	margin: 0 auto;
+	height:auto;
+	overflow: auto;	
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+} 
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 20%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 16.66666%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 14.28%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 12.5%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 11.11%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 10%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 9.09%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 8.333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+}
+
+
+
+
+@media (min-width: 1024px) { 
+
+/* LAPTOP */
+
+.container {
+	width: auto;
+	max-width: 85%;
+	margin: 0 auto;
+	height:auto;
+	overflow: auto;	
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+} 
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 20%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 16.66666%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 14.28%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 12.5%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 11.11%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 10%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 9.09%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 8.333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+}
+
+
+
+@media (min-width: 1280px) { 
+
+/* HI-RES */
+
+.container {
+	width: 1000px;
+	max-width: 85%;
+	margin: 0 auto;
+	height:auto;
+	overflow: auto;	
+}
+
+.row{
+	width: 100%;
+	height: auto;
+	overflow:auto;
+	margin:20px 0;
+} 
+
+.col-group-1{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-2{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-3{
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-4{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-5{
+	width: 20%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-6{
+	width: 16.66666%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-7{
+	width: 14.28%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-8{
+	width: 12.5%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-9{
+	width: 11.11%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-10{
+	width: 10%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-11{
+	width: 9.09%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-12{
+	width: 8.333%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-onethird{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+.col-group-twothird{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;	
+}
+
+}
+
+/* GENRERAL LAYOUT STYLES */
+
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+/* FONT WEIGHTS & STYLES */
+
+.font-thin{
+	font-weight: 100;
+}
+
+.font-light{
+	font-weight: 300;
+}
+
+.font-normal{
+	font-weight: 400;
+}
+
+.font-semi-bold{
+	font-weight: 600;
+}
+
+.font-bold{
+	font-weight: 700;
+}
+
+.font-extra-bold{
+	font-weight: 800;
+}
+
+.font-underline{
+	text-decoration: underline;
+}
+
+.font-italic{
+	font-style: italic;
+}
+
+
